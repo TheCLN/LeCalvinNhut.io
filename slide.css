@@ -1,0 +1,131 @@
+	.slider {
+		width: 900px;
+		height: 855px;
+		overflow: hidden;
+		margin-top: 10px;
+		margin-left:28%;
+
+	}
+	.slides {
+		width: calc(900px * 8);
+		animation: glisse 20s infinite;
+	}
+	.slide {
+		float: left;
+	}
+	.img {
+		width: 900px;
+	}
+
+	@keyframes glisse {
+		0% {
+		transform: translateX(0);
+	}
+
+	12.5% {
+		transform: translateX(-900px);
+	}
+
+	25% {
+		transform: translateX(-1800px);
+	}
+
+	37.5% {
+		transform: translateX(-2700px);
+	}
+
+	50% {
+		transform: translateX(-3600px);
+	}
+
+	62.5% {
+		transform: translateX(-4500px);
+	}
+
+	75% {
+		transform: translateX(-5400px);
+	}
+
+	87.5% {
+		transform: translateX(-6300px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+	}
+
+#page_pageprojetfanzine_ek1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1950px;
+	height: 1300px;
+	background:rgba(7.000000057742,23.000000528991,39.000001475215,1);
+	z-index: 1;
+
+}
+
+#burger_ek1{
+	position: absolute;
+	z-index: 3;
+	top: 32px;
+	left: 27%;
+	width: 38px;
+	height: 39px;
+	transition : transform 0.5s;
+}
+
+#burger_ek1:hover {
+	transform: scale(1.2);
+}
+
+
+.text1 {
+	margin-top: 300px;
+	margin-left: 34.25%;
+	width: 668px;
+	height: 82px;
+	overflow: hidden;
+	font-family: Futura PT;
+	font-size: 18px;
+	text-align: center;
+	line-height: 18px;
+	color:#FFFFFF;
+
+}
+
+
+
+
+
+
+h1 {
+	position: absolute;
+	top: 50px;
+	left: 25%;
+	width: 1024px;
+	height: 107px;
+	overflow: hidden;
+	font-family: Futura PT;
+	font-size: 72px;
+	text-align: center;
+	line-height: 72px;
+	color:#FFFFFF;
+	z-index: 3;
+	transition : transform 0.5s;
+}
+
+h1:hover {
+	transform: scale(1.2);
+}
+
+
+#imghautdepagefanzine {
+	top: 0px;
+	left: 25%;
+	width: 1024px;
+	height: 256px;
+	position: absolute;
+	z-index: 2;
+}

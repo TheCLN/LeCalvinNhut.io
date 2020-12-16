@@ -1,0 +1,197 @@
+body { 
+	margin: 0px; 
+}
+
+img { 
+	position: absolute; 
+	display: block; 
+	margin: 0px; 
+	border: none; 
+	padding: 0px; 
+}
+
+div { 
+	position: absolute;
+	 }
+
+#content-container { display: table; 
+	position: relative;
+	width: 1920px; 
+	overflow: hidden; 
+	display: block; 
+	margin-left: auto;
+	margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#page_pagesite_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 950px;
+}
+
+#_bg__pagesite_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 950px;
+	background:rgba(165.74999392033,165.74999392033,165.74999392033,1);
+}
+
+
+#titreprojetsite {
+	top: 370px;
+	left: 25%;
+	width: 1024px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Futura PT;
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 72px;
+	color:#FFFFFF;
+	transition : transform 0.5s;
+}
+
+#titreprojetsite:hover {
+	transform: scale(1.05);
+	text-decoration: underline;
+}
+
+
+#burger {
+	top: 32px;
+	left: 26%;
+	width: 38px;
+	height: 39px;
+	transition : transform 0.5s
+}
+
+#burger:hover {
+	transform: scale(1.2);
+}
+
+
+#page_pageprojetsite_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 920px;
+}
+
+#_bg__pageprojetsite_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 920px;
+	background:rgba(255,255,255,1);
+}
+
+
+#text1 {
+	top: 315px;
+	left: 27%;
+	width: 455px;
+	height: 500px;
+	overflow: hidden;
+	font-family: Futura PT;
+	font-size: 16px;
+	text-align: left;
+	line-height: 16px;
+	color:#000000;
+}
+
+
+#videosite {
+	top: 390px;
+	left: 27%;
+	width: 480px;
+	height: 320px;
+}
+
+
+#imghautdepagesite {
+	top: 0px;
+	left: 25%;
+	width: 1024px;
+	height: 256px;
+	background:rgba(165.74999392033,165.74999392033,165.74999392033,1);
+}
+
+
+#titrehautdepagesite {
+	top: 90px;
+	left: 25%;
+	width: 1024px;
+	height: 104px;
+	overflow: hidden;
+	font-family: Futura PT;
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 72px;
+	color:#FFFFFF;
+	transition : transform 0.5s;
+}
+
+#titrehautdepagesite:hover {
+	transform: scale(1.2);
+}
+
+
+#burger_ek1 {
+	top: 32px;
+	left: 26%;
+	width: 38px;
+	height: 39px;
+	transition : transform 0.5s;
+}
+
+
+#burger_ek1:hover {
+	transform: scale(1.2);
+}
+
+
+#text3 {
+	top: 480px;
+	left: 55%;
+	width: 314px;
+	height: 74px;
+	overflow: hidden;
+	font-family: Futura PT;
+	font-size: 16px;
+	text-align: left;
+	line-height: 16px;
+	color:#000000;
+}
+
+
+#text2 {
+	top: 316px;
+	left: 55%;
+	width: 384px;
+	height: 158px;
+	overflow: hidden;
+	font-family: Futura PT;
+	font-size: 16px;
+	text-align: left;
+	line-height: 16px;
+	color:#000000;
+}
+
+
+#text4 {
+	top: 559px;
+	left: 55%;
+	width: 384px;
+	height: 116px;
+	overflow: hidden;
+	font-family: Futura PT;
+	font-size: 16px;
+	text-align: left;
+	line-height: 16px;
+	color:#000000;
+}
+
